@@ -1,7 +1,8 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-    apt-get install -y git \
+    apt-get install -y curl \
+    git \
     openssh-server \
     vim
 
